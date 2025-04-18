@@ -10,7 +10,7 @@ export default function App() {
       method: 'POST',
       url: 'https://cheapest-gpt-4-turbo-gpt-4-vision-chatgpt-openai-ai-api.p.rapidapi.com/v1/chat/completions',
       headers: {
-        'x-rapidapi-key': 'your-rapid-api-key',
+        'x-rapidapi-key': 'cadd832d6amsh8738bb17654f2e2p1e976cjsn367653dcb34f',
         'x-rapidapi-host': 'cheapest-gpt-4-turbo-gpt-4-vision-chatgpt-openai-ai-api.p.rapidapi.com',
         'Content-Type': 'application/json'
       },
@@ -56,7 +56,7 @@ export default function App() {
       </button>
 
       <div className="w-1/2 min-h-[100px] p-4 bg-gray-800 rounded-md flex justify-center items-center text-center">
-        {botResponse || <span className="text-gray-400">Bot response will appear here...</span>}
+        {botResponse || <span className="text-gray-400">Query response will appear here...</span>}
       </div>
     </div>
   );
